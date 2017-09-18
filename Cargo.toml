@@ -14,7 +14,7 @@ keywords = ["macro", "lazy", "static"]
 categories = [ "no-std", "rust-patterns" ]
 
 [dependencies.spin]
-version = "0.4"
+git = "https://github.com/messense/spin-rs"
 optional = true
 
 [features]
